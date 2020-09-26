@@ -1,0 +1,562 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html
+{
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body
+{
+	font-family: 'poppins';
+}
+
+/**********HOME PAGE****************/
+.home-page
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/background.png);
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.navbar-brand img
+{
+	width: 9rem;
+	height: 8rem;
+}
+
+.text-section h1,.contact h1
+{
+	padding-top: 12rem;
+	font-size: 3rem;
+	font-weight: bolder;
+	padding-bottom: 1rem;
+	line-height: 4.2rem;
+}
+ .text-section .square,.browse .square,.contact .square
+ {
+ 	width: 1.5rem;
+ 	height: 1.5rem;
+ 	background-color: #f67c92;
+ 	display: inline-block;
+ 	padding-bottom: 1rem;
+ }
+  .text-section p,.browse p
+  {
+  	color: #777;
+  	font-size: 1.2rem;
+  	padding-top: 1rem;
+  	padding-bottom: 2rem;
+  }
+.text-section a, .browse a 
+
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+    border: .3rem solid  #f67c92;
+    padding: 1rem 3.5rem;
+    font-size:  2rem;
+    transition: all .3s ease-in;
+    background-color: transparent;
+    outline: none;
+
+ }
+ .text-section a:hover , .browse a:hover , .limitless a:hover
+ {
+ 	color: #fff;
+ 	background-color: #f67c92;
+ }
+ .line .line-1
+ {
+ 	width: 1.5rem;
+ 	height: 1.5rem;
+ 	background-color: #f67c92;
+ 	display: inline-block;
+ 	margin-top: 5rem;
+ }
+ .line .line-2
+ {
+ 	width: 10rem;
+ 	height: .2rem;
+ 	background-color: #f67c92;
+ 	display: inline-block;
+ 	transition: all .5s ease;
+
+ }
+  .line .line-3
+  {
+  	width: 5rem;
+ 	height: .2rem;
+ 	background-color: #f67c92;
+ 	display: inline-block;
+ 	transition: all .5s ease;
+  }
+  .line:hover .line-2
+  {
+  	width: 5rem;
+  }
+.line:hover .line-3
+{
+width: 10rem;
+}
+
+#sideNav
+ {
+    width: 25rem;
+    height: 100vh;
+    background-color: rgba(246, 124, 146,.8);
+    z-index: 2;
+    position: fixed;
+    right: -25rem;
+    top: 0;
+    transition:  1s ;
+ }
+ nav ul li
+ {
+ 	list-style: none;
+ 	margin: 3rem 2rem;
+ }
+  nav ul li a
+  {
+  	color: #fff;
+  	text-decoration: none;
+  	font-weight: bold;
+  	font-size: 1.5rem;
+  	transition: all .3s ease-in;
+  }
+  nav ul li a:hover
+  {
+  	color: #fff;
+  	text-decoration: none;
+  	border-left:  .2rem solid #fff;
+  	padding-left: 1rem; 
+  }
+  #menuBtn
+  {
+  	width: 5rem;
+  	position: fixed;
+  	right: 6.5rem;
+  	top: 3.5rem;
+  	z-index: 2;
+  	cursor: pointer;
+  	
+
+  }
+
+
+  /**********fixed social link****************/
+  .social-links
+  {
+  	position: fixed;
+  	top: 40%;
+  	left: 1.5%;
+  	z-index: 1;
+
+  }
+  .social-links a
+  {
+  	
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 1rem 0;
+  }
+.social-links a i
+{
+	font-size: 2.5rem;
+	color: #777;
+	transition: .5s ease-in;
+}
+.social-links a i:hover
+{
+	color: #000;
+	padding-left: 1.5rem;
+	
+}
+
+
+  /**********about us****************/
+  .about-us
+  {
+  	width: 100%;
+  	height: 100vh;
+  }
+  .about-us h1, .limitless h1
+  {
+  padding-top: 12rem;
+	font-size: 3rem;
+	font-weight: bolder;
+	padding-bottom: 1rem;
+	letter-spacing: .05em;
+	text-align: right;
+	padding-right: 11rem;	
+  }
+  .about-us .square,  .limitless .square
+  {
+  	width: 1.5rem;
+ 	height: 1.5rem;
+ 	background-color: #f67c92;
+ 	display: inline-block;
+ 	padding-bottom: 1rem;
+ 	margin-right: 11rem;
+  }
+  .about-us p , .limitless p
+  {
+  	color: #777;
+  	font-size: 1.2rem;
+  	padding-top: 4rem;
+  	padding-bottom: 1rem;
+  	text-align: right;
+  	padding-right: 11rem;
+  }
+ .about-us h2
+ {
+ 	font-weight: bolder;
+ 	font-size: 2.5rem;
+ 	text-align: right;
+ 	padding-right: 11rem;
+ 	padding-top: 6rem;
+line-height: 3.5rem;
+font-style: italic;
+ }
+ .about-us h5
+ {
+ 	color: #777;
+ 	font-weight: bolder;
+ 	text-align: right;
+ 	padding-right: 11rem;
+ 	font-style: italic;
+ 	padding-top: 1rem;
+ 	 font-family: 'Baumans';
+ 	 font-size: 1.5rem;
+ }
+
+ /**********  threee-features ****************/
+
+.three-features
+{
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+  padding-top: 10rem;
+}
+.three-features .col-lg-4
+{
+  transition: all .5s ease-in;
+}
+.three-features .col-lg-4:hover
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transform: translateY(-3rem);
+  background-color: rgba(246, 124, 146,.5);
+}
+.three-features .col-lg-4:hover h3
+{
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+.three-features img
+{
+	display: inline-block;
+	width: 15rem;
+	height: 15rem;
+}
+.three-features h3
+{
+	font-weight: bolder;
+	padding-bottom: 1rem;
+  letter-spacing: .1em;
+  transition: all .5s ease-in;
+
+}
+.three-features p
+{
+	color: #777;
+	font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+.three-features  .free-trial
+{
+	margin-top: 5rem;
+	
+}
+.feature-btn
+{
+  margin: 8rem auto 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 10rem;
+}
+.feature-btn .line
+{
+  text-align: right;
+  display: inline-block;
+  margin-right: 2.5rem;
+}
+.feature-btn  a
+{
+    color: #000;
+    font-weight: bolder;
+    text-decoration: none;
+    border: .2rem solid  #f67c92;
+    padding: 1.8rem 3.5rem;
+    background-color: transparent;
+    transition: all .5s ease-in;
+    font-size: 1.5rem;
+
+}
+.feature-btn  a:hover
+{
+	color: #fff;
+ 	background-color: #f67c92;
+}
+
+
+
+
+          /********** browse our top courses****************/
+.browse
+{
+  width: 100%;
+  height: 100vh;
+}
+
+ .browse h1 
+ {
+  font-weight: bolder;
+  padding-top: 22rem;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  line-height: 4.2rem;
+ }
+.browse img
+{
+  padding-top: 18rem;
+  display: inline-block;
+
+
+} 
+
+
+    /********** LIMITLESS LEARNING****************/
+
+
+.limitless
+{
+   width: 100%;
+   height: 100vh;
+}
+
+.limitless a
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bolder;
+    border: .3rem solid  #f67c92;
+    padding: 1.5rem 2.5rem;
+    font-size:  2rem;
+    transition: all .3s ease-in;
+    background-color: transparent;
+    outline: none;
+    text-align: center;
+    margin-left:  28.7rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+
+/********** CONTACT US****************/
+.contact
+{
+  width: 100%;
+  height: 100vh;
+}
+
+.contact .first-cont
+{
+  border-bottom: .1rem solid #d9d9d9;
+  padding-bottom: 2rem;
+}
+
+.contact h1
+{
+  padding-top: 10rem;
+}
+.contact input
+{
+  padding: 2rem!important;
+  border-color:  rgba(246, 124, 146,.5)!important;
+  border-width: .2rem;
+}
+
+.contact .sign-btn
+{
+  color: #000;
+  font-weight: bolder;
+  border: .2rem solid #f67c92;
+  padding: 1.5rem 2rem;
+  background-color: transparent!important;
+  transition: all .5s ease-in;
+}
+
+.contact .sign-btn:hover
+{
+  color: #fff;
+  background-color:  #f67c92!important;
+}
+.contact img
+{
+  padding-top: 8rem;
+  display: inline-block;
+
+
+} 
+
+.second-cont .col-lg-8, .second-cont .col-md-8
+{
+  padding-top: 5rem;
+}
+
+.second-cont .col-lg-8, .second-cont .col-md-8 h3
+{
+  color: #f67c92!important;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.second-cont .col-lg-8, .second-cont .col-md-8 h6
+{
+  color: #777;
+  font-size: 1.1rem;
+}
+
+
+.second-cont .copyright
+{
+  padding-top: 10rem;
+}
+
+.second-cont img
+{
+  padding:  2rem 0;
+  width: 11rem;
+  height: 12rem;
+  display: block;
+  margin: 0;
+}
+.second-cont .anchor a 
+{
+  color: #000;
+  border: .3rem solid #f67c92;
+  text-align: center;
+  padding: 1rem 3.5rem;
+  font-weight: bolder;
+  margin-top: 1rem;
+  background-color: transparent;
+  transition: all .5s ease-in;
+  text-decoration: none;
+  letter-spacing: .2rem;
+  font-size: 1.1rem;
+}
+.second-cont .anchor a:hover
+{
+  color: #fff;
+  background-color: #f67c92;
+}
+
+
+/********** MEDIA QUEREIES****************/
+
+
+@media screen and (max-width: 768px)
+{
+	html
+	{
+		font-size: 45%;
+	}
+	.text-section h1
+	{
+		padding-top: 25rem;
+	}
+	.text-section p
+	{
+		padding-bottom: 5rem;
+	}
+	
+	
+	nav ul li
+	{
+      	margin: 6rem 2rem;
+	}
+	.about-us
+	{
+		height: 80vh;
+	}
+
+	.about-us .image
+	{
+		padding-top: 10rem;
+	}
+  .three-features .row
+  {
+    padding-top: 0!important;
+  }
+  .three-features .container
+  {
+    margin-top: 0!important;
+  }
+  .browse
+  {
+    height: 80vh;
+  }
+   .browse .container
+   {
+    margin-top: 20rem;
+   }
+   .limitless
+   {
+    height: 70vh;
+   }
+   .limitless a
+   {
+    margin-left: 14rem;
+   }
+   .contact h1
+  {
+  padding-top: 20rem;
+  }
+  .contact .first-cont img
+  {
+    padding-top: 20rem;
+  }
+
+  .second-cont .col-lg-8, .second-cont .col-md-8
+   {
+  padding-top: 10rem;
+   }
+   .second-cont .copyright
+   {
+    padding-top: 13rem;
+   }
+   .anchor 
+   {
+    padding-top: 5rem;
+   }
+   .contact .first-cont
+  {
+  border-bottom: .1rem double #d9d9d9;
+  padding-bottom: 4rem;
+  }
+  .contact .sign-btn
+  {
+
+  }
+
+
+}
